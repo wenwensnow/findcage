@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.supinfo.findcage.mainpage.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_margin="13dp"
+        android:text=" The game's goal is to find Nicolas Cage in the following pictures in the minimum time.\r\n\n You can zoom in or out to find Nicolas Cage.\n GOOD LUCK!"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="306dp"
+        android:layout_height="271dp"
+        android:layout_margin="13dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nicolascage" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/btn_start"
+    android:text="START"/>
+</LinearLayout>
